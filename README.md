@@ -1,31 +1,16 @@
 # AI Ops Assistant
 
-An AI-powered automation assistant designed to streamline repetitive workflows and operational tasks using Python.
-
-This project demonstrates automation design, API integration, and backend application structure.
-
----
+A Python-based automation assistant designed to run operational workflows and reduce repetitive tasks.
 
 ## Features
+- File organization automation
+- System reporting
+- Modular automation architecture
+- Logging support
 
-- Workflow automation system
-- Command-based task execution
-- Modular architecture for adding new automations
-- Logging and error handling
-- Configurable task definitions
-- Optional Flask interface (if applicable)
+## Run the Project
 
----
+python main.py
 
-## Tech Stack
-
-- Python
-- Flask
-- OpenAI API (optional)
-- SQLite
-- Git
-
----
-
-## Project Structure
-
+## Project Goal
+This project demonstrates automation engineering concepts, modular Python architecture, and CLI-based workflow execution.
