@@ -1,7 +1,11 @@
 import platform
+from utils.logger import log
 
 def generate_report():
-    print("System:", platform.system())
-    print("Node:", platform.node())
-    print("Release:", platform.release())
-    print("Version:", platform.version())
+    system = platform.system()
+    node = platform.node()
+
+    print("System:", system)
+    print("Node:", node)
+
+    log(f"Generated system report for {node}")

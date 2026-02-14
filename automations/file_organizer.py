@@ -1,5 +1,6 @@
 import os
 import shutil
+from utils.logger import log
 
 def organize_files():
     folder = input("Enter folder path: ")
@@ -13,5 +14,7 @@ def organize_files():
 
             os.makedirs(dest, exist_ok=True)
             shutil.move(path, os.path.join(dest, file))
+
+            log(f"Moved {file} to {ext}/")
 
     print("Files organized.")
